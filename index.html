@@ -2,12 +2,12 @@
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
-<head>      
+<head>
 
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
-crossorigin="anonymous">                         
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+crossorigin="anonymous">
 
 <title>
       Taylor University | #1 Midwest Christian Liberal Arts College  </title>
@@ -25,20 +25,21 @@ crossorigin="anonymous">
 <body>
 
 <header>
-  <div class="nav navbar-default">
-  <div class="container-fluid">
-    
+
+
     <!-- Taylor image at top-->
     <nav class="navbar">
-      <ul class="nav navbar-nav navbar-center">
+      <div class="container-fluid">
+          <div class="nav navbar-left">
+      <ul class="nav navbar-nav">
       <li class="taylor_purple" >
           <img alt="Taylor University" src="white_Taylor_logo_180.png" class="hide-for-print">
       </li>
       </ul>
-    </nav>
+    </div>
 
     <!-- Athletics/Alumni and search-->
-    <nav class="navbar navbar-right">
+    <div class="nav navbar-right">
       <ul class="nav navbar-nav">
           <li class="nav-item"><a herf="/">Athletics</a></li>
           <li class="nav-item"><a herf="/">Alumni</a></li>
@@ -49,51 +50,67 @@ crossorigin="anonymous">
         </form>
            </li>
       </ul>
-
-    </nav>
-  </div>
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  <div class="row" id="audButtonRow">
-    <div class="medium-7 columns">
-              <section class="top-bar-section">
-          <ul id="filters" class="left audienceButtons">
-              <li class="audText">I am...</li>
-              <!--UNCOMMENT TO USE BBQ FOR FILTERING
-              <li><a href="#filter=.prospectiveStudent" data-filter=".prospectiveStudent" class="current">Future Student</a></li>
-              <li><a href="#filter=.parents" data-filter=".parents">Parent</a></li>
-              <!--END OF SECTION-->
-              
-              <!--UNCOMMENT WHEN NOT USING BBQ FOR FILTERING-->
-                                         <li><a href="#" data-filter=".prospectiveStudent" class="" onclick="_gaq.push(['_trackEvent', 'Header', 'Audience', 'Future Student']);">Future Student</a></li>
-              <li><a href="#" data-filter=".parents" onclick="_gaq.push(['_trackEvent', 'Header', 'Audience', 'Parent']);">Parent</a></li>
-                   <!--END OF SECTION-->
-          </ul>
-        </section>
-            </div>
-    <div class="medium-5 columns">
-    <section class="top-bar-section">
-            <ul class="right admButtons">
-        <li><a href="/admissions/undergraduate/application-process/index.shtml" class="applyButton" onclick="_gaq.push(['_trackEvent', 'Admissions - Button', 'Top Tab Click', 'Apply Tab']);">Apply</a></li>
-        <li><a href="/admissions/undergraduate/visit-campus/index.shtml" class="visitButton" onclick="_gaq.push(['_trackEvent', 'Admissions - Button', 'Top Tab Click', 'Visit Tab']);">Visit</a></li>
-        <li><a href="/admissions/undergraduate/information-request-form.shtml" class="infoButton" onclick="_gaq.push(['_trackEvent', 'Admissions - Button', 'Top Tab Click', 'Info Tab']);">Send Me Info</a></li>
-     </ul>
-         </section>
     </div>
   </div>
-  </div> <!-- END OF TOP-TOOLBAR HIDE-FOR-MOBILE-MENU -->
-  
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+  <nav class="navbar" id="iambar">
+    <div class="container-fluid">
+    <div class="nav navbar-left">
+          <ul class="nav navbar-nav">
+              <li class="iambar_1"><a href="">I am...</a></li>
+              <li class="iambar_2"><a href="#" data-filter=".prospectiveStudent" class="" onclick="_gaq.push(['_trackEvent', 'Header', 'Audience', 'Future Student']);">Future Student</a></li>
+              <li class="iambar_3"><a href="#" data-filter=".parents" onclick="_gaq.push(['_trackEvent', 'Header', 'Audience', 'Parent']);">Parent</a></li>
+          </ul>
+            </div>
+
+  <div class="nav navbar-right">
+            <ul class="nav navbar-nav">
+        <li class="iambar_4"><a href="">Apply</a></li>
+        <li class="iambar_5"><a href="">Visit</a></li>
+        <li class="iambar_6"><a href="">Send Me Info</a></li>
+     </ul>
+    </div>
+      </div>
+  </nav> <!-- END OF TOP-TOOLBAR HIDE-FOR-MOBILE-MENU -->
+
 
  <!-- !!!!!!!!!!!! -->
+
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+        <li><a href='http://www.taylor.edu/admissions/undergraduate/application-process/index.shtml' target='_self'>Apply</a></li>
+        <li><a href='http://www.taylor.edu/admissions/undergraduate/visit-campus/index.shtml' target='_self'>Visit Us</a></li>
+        <li><a href='http://www.taylor.edu/admissions/undergraduate/accepted/index.shtml' target='_self'>Accepted</a></li>
+        <li><a href='http://www.taylor.edu/admissions/undergraduate/tuition-financial-aid/index.shtml' target='_self'>Financial Aid</a></li>
+        <li><a href='http://www.taylor.edu/admissions/undergraduate/tuition-financial-aid/scholarships-and-aid.shtml' target='_self'>Scholarships</a></li>
+        <li><a href='http://www.taylor.edu/admissions/undergraduate/find-your-counselor.shtml' target='_self'>Find Counselor</a></li></li>
+        <li><a href='https://www.taylor.edu/admissions/undergraduate/information-request-form.shtml' target='_self'>Request Info</a></li>
+        <li><a href='/admissions/high-school-programs'>High School Programs</a></li>
+      </ul>
+    </li>
+      </div>
+    </div>
+</nav>
+
+
 
   <div class="top-nav show-for-large-up">
     <div class="row logo-menu">
@@ -161,15 +178,15 @@ crossorigin="anonymous">
                                                             </ul>
                 </li>
                                       <li class="divider"></li>
-                   
+
         </ul>
       </section>
 
       </nav>
     </div>
   </div> <!-- END OF TOP-NAV HIDE-FOR-MOBILE-MENU -->
-  
- 
+
+
     <!-- MOBILE/TABLET HEADER MENU BAR -->
     <nav class="tab-bar hide-for-large-up">
         <section class="left-small">
@@ -184,23 +201,23 @@ crossorigin="anonymous">
         </section>
     </nav> <!-- END NAV.TAB-BAR SHOW-FOR-MOBILE-MENU -->
 
-    <div class="hide-for-large-up"> 
+    <div class="hide-for-large-up">
       <ul class="admButtons" style="width: 100%; margin-bottom: 0; height: 25px ;margin-left: 0;">
-        
+
         <!--UNCOMMENT TO USE BBQ FOR FILTERING
         <li class="infoButton"><a href="/admissions/undergraduate/information-request-form.shtml#filter=.prospectiveStudent" onclick="_gaq.push(['_trackEvent', 'Admissions - Button', 'Top Tab Click', 'Info Tab']);">Info</a></li>
         <li class="visitButton" ><a href="/admissions/undergraduate/visit-campus/index.shtml#filter=.prospectiveStudent" onclick="_gaq.push(['_trackEvent', 'Admissions - Button', 'Top Tab Click', 'Visit Tab']);">Visit</a></li>
         <li class="applyButton"><a href="/admissions/undergraduate/application-process/index.shtml#filter=.prospectiveStudent" onclick="_gaq.push(['_trackEvent', 'Admissions - Button', 'Top Tab Click', 'Apply Tab']);">Apply</a></li>
         <!--END OF SECTION-->
-        
-        <!--UNCOMMENT WHEN NOT USING BBQ FOR FILTERING-->         
-        
+
+        <!--UNCOMMENT WHEN NOT USING BBQ FOR FILTERING-->
+
         <li class="applyButton"><a href="/admissions/undergraduate/application-process/index.shtml" onclick="_gaq.push(['_trackEvent', 'Admissions - Button', 'Top Tab Click', 'Apply Tab']);">Apply</a></li>
         <li class="visitButton" ><a href="/admissions/undergraduate/visit-campus/index.shtml" onclick="_gaq.push(['_trackEvent', 'Admissions - Button', 'Top Tab Click', 'Visit Tab']);">Visit</a></li>
         <li class="infoButton"><a href="/admissions/undergraduate/information-request-form.shtml" onclick="_gaq.push(['_trackEvent', 'Admissions - Button', 'Top Tab Click', 'Info Tab']);">Info</a></li>
 
         <!--END OF SECTION-->
-      
+
       </ul>
     </div>
 
@@ -213,16 +230,16 @@ crossorigin="anonymous">
           </form>
         </li>
       </ul>
-      
+
               <ul class="off-canvas-list" id="mainNav">
         <li class="not-click"><label>I am...</label>
           <ul id="filters">
-          
+
                                 <!--UNCOMMENT TO USE BBQ FOR FILTERING
             <li><a href="#filter=.prospectiveStudent" data-filter=".prospectiveStudent">Future Student</a></li>
             <li><a href="#filter=.parents" data-filter=".parents">Parent</a></li>
             <!--END OF SECTION-->
-            
+
             <!--UNCOMMENT WHEN NOT USING BBQ FOR FILTERING-->
             <li><a href="#" data-filter=".prospectiveStudent" class="current" onclick="_gaq.push(['_trackEvent', 'Mobile Menu', 'Audience', 'Future Student']);">Future Student</a></li>
             <li><a href="#" data-filter=".parents" onclick="_gaq.push(['_trackEvent', 'Mobile Menu', 'Audience', 'Parent']);">Parent</a></li>
@@ -230,7 +247,7 @@ crossorigin="anonymous">
                       </ul>
         </li>
       </ul>
-                        
+
       <ul class="off-canvas-list" id="mainNav">
                           <li class="divider"></li>
                                 <li class="has-submenu ">
@@ -306,8 +323,8 @@ crossorigin="anonymous">
         <li><a href="/alumni/" onclick="_gaq.push(['_trackEvent', 'Mobile Menu', 'Exit', 'Alumni']);">Alumni</a></li>
       </ul>
     </aside>  <!-- END OF OFF CANVAS MOBILE/TABLET MENU -->
-    
-  
+
+
 </div>
 </header>
 
