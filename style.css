@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 .iambar_1 {
-  margin-right: 10px !important;
+  margin-right : 10px !important;
   background-color: #888;
   border-color: #666 !important;
 }
@@ -36,4 +36,13 @@
 }
 .iambar_3 a {
     color: #00d1ff !important;
+}
+
+.grad {
+  height: 10px;
+  background: violet;
+  background: -webkit-linear-gradient(left,green,blue,violet,blue,green);
+  background: -o-linear-gradient(left,green,blue,violet,blue,green);
+  background: -moz-linear-gradient(left,green,blue,violet,blue,green);
+  background: linear-gradient(to right,green,blue,violet,blue,green);
 }
