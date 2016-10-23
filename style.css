@@ -5,6 +5,17 @@
     padding-right: 15px;
 }
 
+.taylor_orange {
+    background-color: orange;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.taylor_white {
+    background-color: white;
+}
+
 #iambar li {
   border: 0.5px solid #BBB;
   padding: 3px !important;
@@ -45,4 +56,4 @@
   background: -o-linear-gradient(left,green,blue,violet,blue,green);
   background: -moz-linear-gradient(left,green,blue,violet,blue,green);
   background: linear-gradient(to right,green,blue,violet,blue,green);
-}
+} 
