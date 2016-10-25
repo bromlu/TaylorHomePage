@@ -27,27 +27,30 @@ crossorigin="anonymous">
 </head>
 
 <body>
-<header>
     <!-- Taylor image at top-->
     <div class="grad">
     </div>
+
+<!-- max-width -->
+<div id="main-div" center>
+
 
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-5">
             </div>
-            <div class="col-md-1">
-                <img alt="Taylor University" src="white_Taylor_logo_180.png" class="taylor_purple">
+            <div class="col-md-1 taylor_purple">
+                <img alt="Taylor University" src="white_Taylor_logo_180.png" >
             </div>
             <div class="col-md-6">
                 <nav class="navbar">
                     <div class="nav navbar-right">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item"><a herf="/"><p class="text-uppercase">Athletics</p></a></li>
-                            <li class="nav-item"><a herf="/"><p class="text-uppercase">Alumni</p></a></li>
+                        <ul class="nav navbar-nav top-right-nav">
+                            <li class="nav-item"><a href="/"><p class="text-uppercase">Athletics</p></a></li>
+                            <li class="nav-item"><a href="/"><p class="text-uppercase">Alumni</p></a></li>
                             <li>
-                            <form class = "form-inline" >
-                            <input class = "form-control" type="text" autocomplete="off" onfocus="if (this.value=='Site Search') { this.value='' }" onblur="if(this.value=='')this.value='Site Search';" value="Site Search" name="query">
+                            <form class="form-inline" >
+                            <input class="form-control site-search" type="text" onfocus="if (this.value=='Site Search') { this.value='' }" onblur="if(this.value=='')this.value='Site Search';" value="Site Search" name="query">
                             </form>
                             </li>
                         </ul>
@@ -78,11 +81,11 @@ crossorigin="anonymous">
     </nav> 
     <!-- END OF TOP-TOOLBAR HIDE-FOR-MOBILE-MENU -->
     <!-- Third navbar with dropdowns-->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default main-nav">
+        <div class="container-fluid con-div">
             <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
+                <ul class="nav navbar-nav main-nav-ul">
+                    <li class="dropdown first-drop">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                         aria-haspopup="true" aria-expanded="false">Admissions <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -171,7 +174,6 @@ crossorigin="anonymous">
         </div>
     </div>
 
-</header>
 
 <footer>
     <div class="container-fluid center-block">
@@ -226,5 +228,6 @@ crossorigin="anonymous">
             </div>
         </div>
     </div>
+</div>
 </footer>
 </body>
